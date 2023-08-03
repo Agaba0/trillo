@@ -177,8 +177,6 @@
 
 .gallery {
   display: flex;
-  &__item {
-  }
 
   &__photo {
     width: 100%;
@@ -332,10 +330,6 @@
   color: var(--color-grey-dark3);
   display: flex;
   align-items: center;
-
-  &__friends {
-  }
-
   &__count {
     margin-right: auto;
   }
@@ -352,10 +346,6 @@
     }
   }
 }
-
-.user-reviews {
-}
-
 .review {
   background-color: white;
   box-shadow: var(--shadow-light);
@@ -383,10 +373,6 @@
     margin-right: 2rem;
     align-items: center;
   }
-
-  &__user-box {
-  }
-
   &__user-name {
     text-transform: uppercase;
     font-weight: 8000;
@@ -416,9 +402,4 @@
     font-family: sans-serif;
     z-index: 1;
   }
-}
-
-.center {
-  display: flex;
-  justify-content: center;
 }
